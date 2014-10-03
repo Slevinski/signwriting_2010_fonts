@@ -2,7 +2,7 @@ The SignWriting 2010 Fonts
 =====================
 - - - 
 > Version 0.9  
-October 2nd, 2014
+October 3rd, 2014
 
 SignWriting 2010 is a typeface for written sign languages
 which makes the entire [International SignWriting Alphabet 2010 symbol set][19] available in a TrueType font with OpenType features.
@@ -40,6 +40,12 @@ Encoding and transformation by Stephen E Slevinski Jr.
 
 The SVGs of the compatibility glyphs for the character set "S1234567890abcdef" are based on [Source Sans Pro][25]
 written by Paul D. Hunt and licensed under [SIL Open Font License][24], version 1.1.
+
+### Test Pages
+There are several prototype test pages available for the SignWritig 2010 fonts.
+
+* [Symbol and sign report][27]
+* [Multiple font comparison][28]
 
 - - - 
 
@@ -97,6 +103,7 @@ To Do
 
 Version History
 ------------------
+* 0.9 - Oct 3rd, 2014: added font test pages to readme
 * 0.9 - Oct 2nd, 2014: Initial project with development TrueType fonts and source SVG.
 
 [1]: https://github.com/Slevinski/signwriting_2010_fonts/raw/master/fonts/SignWriting%202010%20Filling.ttf
@@ -125,3 +132,23 @@ Version History
 [24]: http://scripts.sil.org/OFL
 [25]: https://www.google.com/fonts/specimen/Source+Sans+Pro
 [26]: http://tools.ietf.org/html/draft-slevinski-signwriting-text
+[27]: http://signpuddle.net/iswa/swfont_test.html
+[28]: http://signpuddle.net/iswa/swfonts.html
+[29]: https://github.com/Slevinski/signwriting_2010_fonts
+[30]: https://github.com/Slevinski/signwriting_2010_tools
+[31]: https://github.com/Slevinski/swap
+[32]: https://github.com/Slevinski/swis
+[33]: https://signbank.org/swap
+[34]: http://swis.wmflabs.org
+[35]: http://signbank.org/swis
+[36]: http://signpuddle.com
+[37]: https://incubator.wikimedia.org/wiki/User:Slevinski
+[38]: https://incubator.wikimedia.org/wiki/User:Slevinski/SignWriting/Incubator#SignWriting_Gadget
+[39]: https://incubator.wikimedia.org/wiki/Wp/ase
+[40]: https://incubator.wikimedia.org/wiki/Category:Incubator:Test_wikis_of_sign_languages
+[41]: http://www.adobe.com/devnet/opentype/afdko/topic_feature_file_syntax.html#5.d
+[42]: https://raw.githubusercontent.com/Slevinski/signwriting_2010_tools/master/source/signwriting_2010_unicode8.fea
+[43]: https://raw.githubusercontent.com/Slevinski/signwriting_2010_tools/master/source/signwriting_2010_unicode_pua.fea
+[44]: https://raw.githubusercontent.com/Slevinski/signwriting_2010_tools/master/source/signwriting_2010_symbolkey.fea
+[45]: http://fontforge.org/
+[46]: http://fontforge.org/python.html
