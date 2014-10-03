@@ -7,6 +7,8 @@ October 3rd, 2014
 SignWriting 2010 is a typeface for written sign languages
 which makes the entire [International SignWriting Alphabet 2010 symbol set][19] available in a TrueType font with OpenType features.
 
+The SignWriting 2010 Fonts are built with the [SignWriting 2010 Tools][30].
+
 Fonts
 -------
 The SignWriting 2010 Fonts are fully functional but not production ready.  
