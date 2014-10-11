@@ -15,16 +15,6 @@ The symbols were encoded, transformed, and refactored by Stephen E Slevinski Jr 
 # Public TrueType Fonts  
 Reserved Font Name: SignWriting 2010  
 Reserved Font Name: SignWriting 2010 Filling  
-Reserved Font Name: SignWriting 2010 Mono  
-Reserved Font Name: SignWriting 2010 Mono Filling  
-
-# Development Fonts  
-Reserved Font Name: SignWriting 2010 Unified  
-Reserved Font Name: SignWriting 2010 Line  
-Reserved Font Name: SignWriting 2010 Other
-Reserved Font Name: SignWriting 2010 Mono Unified  
-Reserved Font Name: SignWriting 2010 Mono Line  
-Reserved Font Name: SignWriting 2010 Mono Other
 
 Center for Sutton Movement Writing, Inc. (CSMW)
 a US 501c3 nonprofit educational organization
