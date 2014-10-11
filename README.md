@@ -1,36 +1,23 @@
 The SignWriting 2010 Fonts
 =====================
 - - - 
-> Version 0.9  
-October 3rd, 2014
+> Version 0.9.1  
+October 11th, 2014
 
 SignWriting 2010 is a typeface for written sign languages
 which makes the entire [International SignWriting Alphabet 2010 symbol set][19] available in a TrueType font with OpenType features.
 
 The SignWriting 2010 Fonts are built with the [SignWriting 2010 Tools][30].
 
-Fonts
--------
-The SignWriting 2010 Fonts are fully functional but not production ready.  
+TrueType Fonts
+-----------------
+The SignWriting 2010 Fonts are fully functional and nearly production ready.  The image quality has been perfected for the TrueType fonts, but positioning, alignment, and margin issues still need to be tweaked.
 
-There are several issues with sizing and alignment for the various glyphs.  The font settings and the individual glyph settings can be adjusted in the SignWriting 2010 Tools project and the fonts can quickly be recreated.
+The various settings of the TrueType fonts can be customized with the [SignWriting 2010 Tools][30] project.  
 
-There are a few issues regarding the image quality.  Overall, the TrueType quality is very close to the SVG, but there are obvious differences when the images are zoomed.  There are a handful of symbols that need to be adjusted by hand because the SVG import failed to produce a legible glyph.  These issues will be resolved before the 1.0 release.
-
-
-### Public TrueType Fonts  
-> Reserved Font Name: SignWriting 2010  
+### Downloads and log reports
+> Reserved Font Name: [SignWriting 2010][57] with [log report][58]  
 Reserved Font Name: [SignWriting 2010 Filling][1] with [log report][2]  
-Reserved Font Name: SignWriting 2010 Mono  
-Reserved Font Name: [SignWriting 2010 Mono Filling][3] with [log report][4]  
-
-### Development Fonts  
-> Reserved Font Name: [SignWriting 2010 Unified][5] with [log report][6]  
-Reserved Font Name: [SignWriting 2010 Line][7] with [log report][8]  
-Reserved Font Name: SignWriting 2010 Other  
-Reserved Font Name: [SignWriting 2010 Mono Unified][9] with [log report][10]  
-Reserved Font Name: [SignWriting 2010 Mono Line][11] with [log report][12]  
-Reserved Font Name: SignWriting 2010 Other
 
 ### License
 The SignWriting 2010 Fonts are free and open source, released under
@@ -43,31 +30,34 @@ Encoding and transformation by Stephen E Slevinski Jr.
 The SVGs of the compatibility glyphs for the character set "S1234567890abcdef" are based on [Source Sans Pro][25]
 written by Paul D. Hunt and licensed under [SIL Open Font License][24], version 1.1.
 
-### Test Pages
-There are several prototype test pages available for the SignWritig 2010 fonts.
+### Demo Pages
+The demo pages can be created with the SignWriting 2010 Tools.
+There are 3 types of demo pages available online.
 
-* [Symbol and sign report][27]
-* [Multiple font comparison][28]
+* Unicode 8 demo pages: [view online][47] or [download][48]
+* Unicode Private Use Area demo pages: [view online][49] or [download][50]
+* Symbol Key demo pages: [view online][51] or [download][52]
 
 - - - 
 
 Source SVG
---------------
-The SignWriting 2010 Fonts are created from individual SVG files.  The SVG files are available in the following zipped directories.  The SVG files are based on the [ISWA 2010 Font Reference][20] version 1.10.1.
+---------------
+The source SVG required to build the TrueType fonts  is available in 2 data files.  These files were created with the SignWriting 2010 Tools by retracing the SVG Refinement.  These files can be unpacked with the SignWriting 2010 Tools.
 
-### Individually Sized SVG
-> [SVG1 Unified Glyphs][13]  
-[SVG1 Line Glyphs][14]  
-[SVG1 Filling Glyphs][15]  
-SVG1 Other Glyphs  
+* [SVG Line][55]  
+* [SVG Filling][56]
 
-### Mono Sized SVG with viewBox
+- - -
 
-> [SVG1 Unified Glyphs][16]  
-[SVG1 Line Glyphs][17]  
-[SVG1 Filling Glyphs][18]  
-SVG1 Other Glyphs
-  
+Historical Formats
+---------------------
+The original font was created by Valerie Sutton as individual PNG files.  The SVG Refinement was a partnership of hand crafted SVGs by Adam Frost with automation tools  by Stephen E Slevinski Jr. 
+
+These files can be unpacked with the SignWriting 2010 Tools.
+
+* [Valerie Sutton's original PNG][53]
+* [SVG Refinement][54]
+
 - - -
 
 Character Sets
@@ -100,11 +90,11 @@ This is a work in progress. Feedback, bug reports, and patches are welcomed.
 To Do
 -------
 * Improve the fonts and release new versions
-* Create new source SVG called `SVG1 Other Glyphs` for the SignWriting 2010 Tools project
-* Create demo pages that show the font usage
+* Create demo pages for entire signs with SVG placement for TrueType fonts
 
 Version History
 ------------------
+* 0.9.1 - Oct 11th, 2014: new sources and new TTFs
 * 0.9 - Oct 3rd, 2014: added font test pages to readme
 * 0.9 - Oct 2nd, 2014: Initial project with development TrueType fonts and source SVG.
 
@@ -154,3 +144,15 @@ Version History
 [44]: https://raw.githubusercontent.com/Slevinski/signwriting_2010_tools/master/source/signwriting_2010_symbolkey.fea
 [45]: http://fontforge.org/
 [46]: http://fontforge.org/python.html
+[47]: http://signpuddle.net/iswa/demo/unicode8
+[48]: http://signpuddle.net/iswa/demo/unicode8.zip
+[49]: http://signpuddle.net/iswa/demo/unicodepua
+[50]: http://signpuddle.net/iswa/demo/unicodepua.zip
+[51]: http://signpuddle.net/iswa/demo/symbolkey
+[52]: http://signpuddle.net/iswa/demo/symbolkey.zip
+[53]: https://github.com/Slevinski/signwriting_2010_fonts/raw/master/source/png_sutton.zip
+[54]: https://github.com/Slevinski/signwriting_2010_fonts/raw/master/source/svg_refinement.zip
+[55]: https://github.com/Slevinski/signwriting_2010_fonts/raw/master/source/svg_line.zip
+[56]: https://github.com/Slevinski/signwriting_2010_fonts/raw/master/source/svg_fill.zip
+[57]: https://github.com/Slevinski/signwriting_2010_fonts/raw/master/fonts/SignWriting%202010.ttf
+[58]: https://github.com/Slevinski/signwriting_2010_fonts/raw/master/fonts/SignWriting%202010.log

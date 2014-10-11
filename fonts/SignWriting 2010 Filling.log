@@ -1,12 +1,15 @@
-build.py Filling -v -l "../fonts/SignWriting 2010 Filling.log"
+build.py Filling -d svg_fill -v -l
 
 SignWriting 2010 Tools project
+-------------------------------
+	version 1.2.0
 -------------------------------
 https://github.com/slevinski/signwriting_2010_tools
 
 verbosity turned on
 
-using subfont Filling in ../source/svg1F
+using directory ../source/svg_fill/ for import files
+using extension svg
 
 Font initilization
 
@@ -16,7 +19,7 @@ Custom settings file: custom.txt
 	setting: comment as "The SignWriting 2010 font is a typeface for written sign languages which makes the entire International SignWriting Alphabet 2010 symbol set available"
 	setting: descent as 15
 	setting: ascent as 15
-	setting: em as 30
+	setting: em as 300
 
 Glyph settings file: glyph.txt
 	setting: left_side_bearing as 5
@@ -44,15 +47,15 @@ Generating Font File...
 
 OK
 
-Elapsed time of  55.2 seconds.
-	35.3 seconds to create 37811 glyphs
-	3.5 seconds to create 1393 characters
+Elapsed time of  28.7 seconds.
+	9.1 seconds to create 37811 glyphs
+	3.6 seconds to create 1393 characters
 		688 Unicode 8 characters
 		688 Unicode Private Use Area characters
 		17 Symbol Key characters
 	1.3 seconds to merge features
-	15.0 seconds to generate font file
+	14.8 seconds to generate font file
 
 Wrote font file ../fonts/SignWriting 2010 Filling.ttf
-	file created:  2014-10-02 09:04:35
-	file size: 2.95 MB
+	file created:  2014-10-10 13:45:56
+	file size: 3.76 MB
