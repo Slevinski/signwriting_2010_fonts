@@ -1,4 +1,4 @@
-build.py  -d svg_line -v -l
+build.py  -d svg_line -vf -l
 
 SignWriting 2010 Tools project
 -------------------------------
@@ -11,19 +11,20 @@ verbosity turned on
 using directory ../source/svg_line/ for import files
 using extension svg
 
+Overwriting font file ../fonts/SignWriting 2010.ttf
+
 Font initilization
 
 Custom settings file: custom.txt
 	setting: weight as "Medium"
 	setting: copyright as "SignWriting 2010 is released under the SIL Open Font License, Version 1.1.\nhttp://scripts.sil.org/OFL\n\nThis Font Software is Copyright (c) 1974-2014\nCenter For Sutton Movement Writing, Inc.\n\nThe symbols in the International SignWriting Alphabet 2010 (ISWA 2010)\nwere designed by SignWriting inventor, Valerie Sutton (sutton@signwriting.org).\n\nThe symbols were refined by Adam Frost (frost@signwriting.org).\n\nThe symbols were encoded, transformed, and refactored by Stephen E Slevinski Jr (slevin@signpuddle.net).\n\n# Public TrueType Fonts\nReserved Font Name: SignWriting 2010\nReserved Font Name: SignWriting 2010 Filling\nReserved Font Name: SignWriting 2010 Mono\nReserved Font Name: SignWriting 2010 Mono Filling\n\n# Development Fonts\nReserved Font Name: SignWriting 2010 Unified\nReserved Font Name: SignWriting 2010 Line\nReserved Font Name: SignWriting 2010 Other\n\nCenter for Sutton Movement Writing, Inc. (CSMW)\na US 501c3 nonprofit educational organization\nhttp://signwriting.org, http://signbank.org, http://movementwriting.org\n\nSignPuddle Software by Stephen E Slevinski Jr\nhttp://signpuddle.org, http://signpuddle.net, http://signpuddle.com"
 	setting: comment as "The SignWriting 2010 font is a typeface for written sign languages which makes the entire International SignWriting Alphabet 2010 symbol set available"
-	setting: descent as 15
-	setting: ascent as 15
+	setting: descent as 30
+	setting: ascent as 0
 	setting: em as 300
 
 Glyph settings file: glyph.txt
-	setting: left_side_bearing as 5
-	setting: right_side_bearing as 5
+	setting: right_side_bearing as 0
 	calling: autoInstr
 
 ISWA 2010 Glyphs
@@ -48,14 +49,14 @@ Generating Font File...
 OK
 
 Elapsed time of  41.7 seconds.
-	14.7 seconds to create 37811 glyphs
-	4.8 seconds to create 1393 characters
+	15.2 seconds to create 37811 glyphs
+	5.4 seconds to create 1393 characters
 		688 Unicode 8 characters
 		688 Unicode Private Use Area characters
 		17 Symbol Key characters
-	1.5 seconds to merge features
-	20.7 seconds to generate font file
+	1.6 seconds to merge features
+	19.6 seconds to generate font file
 
 Wrote font file ../fonts/SignWriting 2010.ttf
-	file created:  2014-10-10 14:17:20
-	file size: 8.50 MB
+	file created:  2014-10-13 14:55:12
+	file size: 8.48 MB

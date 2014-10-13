@@ -1,8 +1,8 @@
 The SignWriting 2010 Fonts
 =====================
 - - - 
-> Version 0.9.1  
-October 11th, 2014
+> Version 1.0  
+October 13th, 2014
 
 SignWriting 2010 is a typeface for written sign languages
 which makes the entire [International SignWriting Alphabet 2010 symbol set][19] available in a TrueType font with OpenType features.
@@ -11,9 +11,8 @@ The SignWriting 2010 Fonts are built with the [SignWriting 2010 Tools][30].
 
 TrueType Fonts
 -----------------
-The SignWriting 2010 Fonts are fully functional and nearly production ready.  The image quality has been perfected for the TrueType fonts, but positioning, alignment, and margin issues still need to be tweaked.
+The SignWriting 2010 Fonts are fully functional and production ready.  The image quality and glyph alignment has been perfected.
 
-The various settings of the TrueType fonts can be customized with the [SignWriting 2010 Tools][30] project.  
 
 ### Downloads and log reports
 > Reserved Font Name: [SignWriting 2010][57] with [log report][58]  
@@ -23,6 +22,9 @@ Reserved Font Name: [SignWriting 2010 Filling][1] with [log report][2]
 The SignWriting 2010 Fonts are free and open source, released under
 [SIL Open Font License][24], version 1.1.
 
+This Font Software is Copyright (c) 1974-2014  
+Center For Sutton Movement Writing, Inc.
+
 Original symbol design by Valerie Sutton.
 Symbol image refinement in SVG by Adam Frost.
 Encoding and transformation by Stephen E Slevinski Jr.
@@ -31,12 +33,14 @@ The SVGs of the compatibility glyphs for the character set "S1234567890abcdef" a
 written by Paul D. Hunt and licensed under [SIL Open Font License][24], version 1.1.
 
 ### Demo Pages
-The demo pages can be created with the SignWriting 2010 Tools.
+The symbol demo pages can be created with the SignWriting 2010 Tools.
 There are 3 types of demo pages available online.
 
 * Unicode 8 demo pages: [view online][47] or [download][48]
 * Unicode Private Use Area demo pages: [view online][49] or [download][50]
 * Symbol Key demo pages: [view online][51] or [download][52]
+
+Additionally, complete sign images with the TrueType fonts inside of SVGs is working nicely.  View the [codepen][59] example for a working demonstration.
 
 - - - 
 
@@ -89,11 +93,11 @@ This is a work in progress. Feedback, bug reports, and patches are welcomed.
 
 To Do
 -------
-* Improve the fonts and release new versions
 * Create demo pages for entire signs with SVG placement for TrueType fonts
 
 Version History
 ------------------
+* 1.0 - Oct 13th, 2014: production ready fonts
 * 0.9.1 - Oct 11th, 2014: new sources and new TTFs
 * 0.9 - Oct 3rd, 2014: added font test pages to readme
 * 0.9 - Oct 2nd, 2014: Initial project with development TrueType fonts and source SVG.
@@ -156,3 +160,4 @@ Version History
 [56]: https://github.com/Slevinski/signwriting_2010_fonts/raw/master/source/svg_fill.zip
 [57]: https://github.com/Slevinski/signwriting_2010_fonts/raw/master/fonts/SignWriting%202010.ttf
 [58]: https://github.com/Slevinski/signwriting_2010_fonts/raw/master/fonts/SignWriting%202010.log
+[59]: http://codepen.io/Slevinski/pen/exnju
