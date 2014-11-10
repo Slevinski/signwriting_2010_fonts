@@ -1,13 +1,15 @@
 The SignWriting 2010 Fonts
 =====================
 - - - 
-> Version 1.0  
-October 13th, 2014
+> Version 1.1  
+November 10th, 2014
 
 SignWriting 2010 is a typeface for written sign languages
 which makes the entire [International SignWriting Alphabet 2010 symbol set][19] available in a TrueType font with OpenType features.
 
 The SignWriting 2010 Fonts are built with the [SignWriting 2010 Tools][30].
+
+The SignWriting 2010 Fonts are used in the [SignWriting 2010 JavaScript Library][60].
 
 TrueType Fonts
 -----------------
@@ -16,7 +18,10 @@ The SignWriting 2010 Fonts are fully functional and production ready.  The image
 
 ### Downloads and log reports
 > Reserved Font Name: [SignWriting 2010][57] with [log report][58]  
-Reserved Font Name: [SignWriting 2010 Filling][1] with [log report][2]  
+Reserved Font Name: [SignWriting 2010 Filling][1] with [log report][2] 
+
+Fonts packaged for iOS: [SignWriting 2010 Configuration Profile][61] 
+
 
 ### License
 The SignWriting 2010 Fonts are free and open source, released under
@@ -80,8 +85,8 @@ S10000..S38b07; ISWA 2010 Symbol Keys
 The character encodings used in SignWriting 2010 are defined in an Internet Draft submitted to the IETF: [draft-slevinski-signwriting-text][26].
 The document is improved and resubmitted every 6 months.
 The character design has been stable since January 12, 2012.
-The current version of the Internet Draft is 03.
-The next version is planned for November 2014.
+The current version of the Internet Draft is 04.
+The next version is planned for May 2015.
 
 - - -
 
@@ -93,10 +98,12 @@ This is a work in progress. Feedback, bug reports, and patches are welcomed.
 
 To Do
 -------
-* Create demo pages for entire signs with SVG placement for TrueType fonts
+* Investigate symbol irregularities for the various browser/platform combinations.
+* Fine tune symbol design where needed. 
 
 Version History
 ------------------
+* 1.1 - Nov 10th, 2014: fine tuned glyphs for the SignWriting 2010 JavaScript library and added iOS support with config profile
 * 1.0 - Oct 13th, 2014: production ready fonts
 * 0.9.1 - Oct 11th, 2014: new sources and new TTFs
 * 0.9 - Oct 3rd, 2014: added font test pages to readme
@@ -161,3 +168,5 @@ Version History
 [57]: https://github.com/Slevinski/signwriting_2010_fonts/raw/master/fonts/SignWriting%202010.ttf
 [58]: https://github.com/Slevinski/signwriting_2010_fonts/raw/master/fonts/SignWriting%202010.log
 [59]: http://codepen.io/Slevinski/pen/exnju
+[60]: https://github.com/Slevinski/sw10js
+[61]: https://github.com/Slevinski/signwriting_2010_fonts/raw/master/fonts/SignWriting%202010.mobileconfig
