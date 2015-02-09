@@ -1,8 +1,8 @@
 The SignWriting 2010 Fonts
 =====================
 - - - 
-> Version 1.1  
-November 10th, 2014
+> Version 1.1.1  
+February 4th, 2015
 
 SignWriting 2010 is a typeface for written sign languages
 which makes the entire [International SignWriting Alphabet 2010 symbol set][19] available in a TrueType font with OpenType features.
@@ -71,16 +71,25 @@ These files can be unpacked with the SignWriting 2010 Tools.
 
 Character Sets
 --------------------
-Three different character sets can be used to access the glyphs.
+The various character sets used to access the symbol glyphs are Unicode compatible.  
 
 1D800..1DAAF; Sutton SignWriting  
-To be published in [Unicode 8][21] in [2015][22].
+To be published in [Unicode 8][64] in [2015][22].  
+Uses 1 to 3 characters per symbol.
 
-FD800..FDFFF; SignWriting Text  
-[Private Use Area characters][26] for 2-dimensional text.
+FD800..FDFFF; SignWriting Text   
+Private Use Area characters.  
+Uses 3 characters per symbol.  Includes characters for structural markers and numbers.
+
+100000...10FFFF; Symbol Code Points  
+Private Use Area characters.  
+Uses 1 character per symbol.
 
 S10000..S38b07; ISWA 2010 Symbol Keys  
+ASCII characters, UTF-8 compatible.  
 [Symbol keys][19] used as glyph names in the font files.
+
+The characters conversions implementation can be found in the [SignWriting 2010 JavaScript Library][60] in the ["sw10.js"][65] file under functions "uni8" for Unicode 8, "pua" for SignWriting Text characters on plane 15, "code" for symbol code points characters on plane 16.  
 
 The character encodings used in SignWriting 2010 are defined in an Internet Draft submitted to the IETF: [draft-slevinski-signwriting-text][26].
 The document is improved and resubmitted every 6 months.
@@ -103,6 +112,7 @@ To Do
 
 Version History
 ------------------
+* 1.1.1 - Feb 4th, 2015: updated character sets information
 * 1.1 - Nov 10th, 2014: fine tuned glyphs for the SignWriting 2010 JavaScript library and added iOS support with config profile
 * 1.0 - Oct 13th, 2014: production ready fonts
 * 0.9.1 - Oct 11th, 2014: new sources and new TTFs
@@ -170,3 +180,7 @@ Version History
 [59]: http://codepen.io/Slevinski/pen/exnju
 [60]: https://github.com/Slevinski/sw10js
 [61]: https://github.com/Slevinski/signwriting_2010_fonts/raw/master/fonts/SignWriting%202010.mobileconfig
+[62]: http://github.com/Slevinski/sw10js
+[63]: http://www.opensource.org/licenses/mit-license.php
+[64]: http://www.unicode.org/versions/Unicode8.0.0/
+[65]: https://raw.githubusercontent.com/Slevinski/sw10js/gh-pages/sw10.js
