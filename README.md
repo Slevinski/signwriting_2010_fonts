@@ -1,8 +1,8 @@
 The SignWriting 2010 Fonts
 =====================
 - - - 
-> Version 1.1.1  
-February 4th, 2015
+> Version 1.1.2  
+May 20th, 2015
 
 SignWriting 2010 is a typeface for written sign languages
 which makes the entire [International SignWriting Alphabet 2010 symbol set][19] available in a TrueType font with OpenType features.
@@ -10,6 +10,8 @@ which makes the entire [International SignWriting Alphabet 2010 symbol set][19] 
 The SignWriting 2010 Fonts are built with the [SignWriting 2010 Tools][30].
 
 The SignWriting 2010 Fonts are used in the [SignWriting 2010 JavaScript Library][60].
+
+The SignWriting 2010 Fonts are highlighted in [SignMaker 2015][66].
 
 TrueType Fonts
 -----------------
@@ -27,7 +29,7 @@ Fonts packaged for iOS: [SignWriting 2010 Configuration Profile][61]
 The SignWriting 2010 Fonts are free and open source, released under
 [SIL Open Font License][24], version 1.1.
 
-This Font Software is Copyright (c) 1974-2014  
+This Font Software is Copyright (c) 1974-2015  
 Center For Sutton Movement Writing, Inc.
 
 Original symbol design by Valerie Sutton.
@@ -94,8 +96,8 @@ The characters conversions implementation can be found in the [SignWriting 2010 
 The character encodings used in SignWriting 2010 are defined in an Internet Draft submitted to the IETF: [draft-slevinski-signwriting-text][26].
 The document is improved and resubmitted every 6 months.
 The character design has been stable since January 12, 2012.
-The current version of the Internet Draft is 04.
-The next version is planned for May 2015.
+The current version of the Internet Draft is 05.
+The next version is planned for November 2015.
 
 - - -
 
@@ -112,6 +114,7 @@ To Do
 
 Version History
 ------------------
+* 1.1.2 - May 20th, 2015: updated font links to CDN
 * 1.1.1 - Feb 4th, 2015: updated character sets information
 * 1.1 - Nov 10th, 2014: fine tuned glyphs for the SignWriting 2010 JavaScript library and added iOS support with config profile
 * 1.0 - Oct 13th, 2014: production ready fonts
@@ -119,24 +122,24 @@ Version History
 * 0.9 - Oct 3rd, 2014: added font test pages to readme
 * 0.9 - Oct 2nd, 2014: Initial project with development TrueType fonts and source SVG.
 
-[1]: https://github.com/Slevinski/signwriting_2010_fonts/raw/master/fonts/SignWriting%202010%20Filling.ttf
-[2]: https://github.com/Slevinski/signwriting_2010_fonts/raw/master/fonts/SignWriting%202010%20Filling.log
-[3]: https://github.com/Slevinski/signwriting_2010_fonts/raw/master/fonts/SignWriting%202010%20Mono%20Filling.ttf
-[4]: https://github.com/Slevinski/signwriting_2010_fonts/raw/master/fonts/SignWriting%202010%20Mono%20Filling.log
-[5]: https://github.com/Slevinski/signwriting_2010_fonts/raw/master/fonts/SignWriting%202010%20Unified.ttf
-[6]: https://github.com/Slevinski/signwriting_2010_fonts/raw/master/fonts/SignWriting%202010%20Unified.log
-[7]: https://github.com/Slevinski/signwriting_2010_fonts/raw/master/fonts/SignWriting%202010%20Line.ttf
-[8]: https://github.com/Slevinski/signwriting_2010_fonts/raw/master/fonts/SignWriting%202010%20Line.log
-[9]: https://github.com/Slevinski/signwriting_2010_fonts/raw/master/fonts/SignWriting%202010%20Mono%20Unified.ttf
-[10]: https://github.com/Slevinski/signwriting_2010_fonts/raw/master/fonts/SignWriting%202010%20Mono%20Unified.log
-[11]: https://github.com/Slevinski/signwriting_2010_fonts/raw/master/fonts/SignWriting%202010%20Mono%20Line.ttf
-[12]: https://github.com/Slevinski/signwriting_2010_fonts/raw/master/fonts/SignWriting%202010%20Mono%20Line.log
-[13]: https://github.com/Slevinski/signwriting_2010_fonts/raw/master/source/svg1U.zip
-[14]: https://github.com/Slevinski/signwriting_2010_fonts/raw/master/source/svg1L.zip
-[15]: https://github.com/Slevinski/signwriting_2010_fonts/raw/master/source/svg1F.zip
-[16]: https://github.com/Slevinski/signwriting_2010_fonts/raw/master/source/svb1U.zip
-[17]: https://github.com/Slevinski/signwriting_2010_fonts/raw/master/source/svb1L.zip
-[18]: https://github.com/Slevinski/signwriting_2010_fonts/raw/master/source/svb1F.zip
+[1]: https://cdn.rawgit.com/Slevinski/signwriting_2010_fonts/master/fonts/SignWriting%202010%20Filling.ttf
+[2]: https://cdn.rawgit.com/Slevinski/signwriting_2010_fonts/master/fonts/SignWriting%202010%20Filling.log
+[3]: https://cdn.rawgit.com/Slevinski/signwriting_2010_fonts/master/fonts/SignWriting%202010%20Mono%20Filling.ttf
+[4]: https://cdn.rawgit.com/Slevinski/signwriting_2010_fonts/master/fonts/SignWriting%202010%20Mono%20Filling.log
+[5]: https://cdn.rawgit.com/Slevinski/signwriting_2010_fonts/master/fonts/SignWriting%202010%20Unified.ttf
+[6]: https://cdn.rawgit.com/Slevinski/signwriting_2010_fonts/master/fonts/SignWriting%202010%20Unified.log
+[7]: https://cdn.rawgit.com/Slevinski/signwriting_2010_fonts/master/fonts/SignWriting%202010%20Line.ttf
+[8]: https://cdn.rawgit.com/Slevinski/signwriting_2010_fonts/master/fonts/SignWriting%202010%20Line.log
+[9]: https://cdn.rawgit.com/Slevinski/signwriting_2010_fonts/master/fonts/SignWriting%202010%20Mono%20Unified.ttf
+[10]: https://cdn.rawgit.com/Slevinski/signwriting_2010_fonts/master/fonts/SignWriting%202010%20Mono%20Unified.log
+[11]: https://cdn.rawgit.com/Slevinski/signwriting_2010_fonts/master/fonts/SignWriting%202010%20Mono%20Line.ttf
+[12]: https://cdn.rawgit.com/Slevinski/signwriting_2010_fonts/master/fonts/SignWriting%202010%20Mono%20Line.log
+[13]: https://cdn.rawgit.com/Slevinski/signwriting_2010_fonts/master/source/svg1U.zip
+[14]: https://cdn.rawgit.com/Slevinski/signwriting_2010_fonts/master/source/svg1L.zip
+[15]: https://cdn.rawgit.com/Slevinski/signwriting_2010_fonts/master/source/svg1F.zip
+[16]: https://cdn.rawgit.com/Slevinski/signwriting_2010_fonts/master/source/svb1U.zip
+[17]: https://cdn.rawgit.com/Slevinski/signwriting_2010_fonts/master/source/svb1L.zip
+[18]: https://cdn.rawgit.com/Slevinski/signwriting_2010_fonts/master/source/svb1F.zip
 [19]: http://signbank.org/iswa
 [20]: http://signpuddle.net/iswa
 [21]: http://www.unicode.org/alloc/Pipeline.html
@@ -160,9 +163,9 @@ Version History
 [39]: https://incubator.wikimedia.org/wiki/Wp/ase
 [40]: https://incubator.wikimedia.org/wiki/Category:Incubator:Test_wikis_of_sign_languages
 [41]: http://www.adobe.com/devnet/opentype/afdko/topic_feature_file_syntax.html#5.d
-[42]: https://raw.githubusercontent.com/Slevinski/signwriting_2010_tools/master/source/signwriting_2010_unicode8.fea
-[43]: https://raw.githubusercontent.com/Slevinski/signwriting_2010_tools/master/source/signwriting_2010_unicode_pua.fea
-[44]: https://raw.githubusercontent.com/Slevinski/signwriting_2010_tools/master/source/signwriting_2010_symbolkey.fea
+[42]: https://cdn.rawgit.com/Slevinski/signwriting_2010_tools/master/source/signwriting_2010_unicode8.fea
+[43]: https://cdn.rawgit.com/Slevinski/signwriting_2010_tools/master/source/signwriting_2010_unicode_pua.fea
+[44]: https://cdn.rawgit.com/Slevinski/signwriting_2010_tools/master/source/signwriting_2010_symbolkey.fea
 [45]: http://fontforge.org/
 [46]: http://fontforge.org/python.html
 [47]: http://signpuddle.net/iswa/demo/unicode8
@@ -171,16 +174,17 @@ Version History
 [50]: http://signpuddle.net/iswa/demo/unicodepua.zip
 [51]: http://signpuddle.net/iswa/demo/symbolkey
 [52]: http://signpuddle.net/iswa/demo/symbolkey.zip
-[53]: https://github.com/Slevinski/signwriting_2010_fonts/raw/master/source/png_sutton.zip
-[54]: https://github.com/Slevinski/signwriting_2010_fonts/raw/master/source/svg_refinement.zip
-[55]: https://github.com/Slevinski/signwriting_2010_fonts/raw/master/source/svg_line.zip
-[56]: https://github.com/Slevinski/signwriting_2010_fonts/raw/master/source/svg_fill.zip
-[57]: https://github.com/Slevinski/signwriting_2010_fonts/raw/master/fonts/SignWriting%202010.ttf
-[58]: https://github.com/Slevinski/signwriting_2010_fonts/raw/master/fonts/SignWriting%202010.log
+[53]: https://cdn.rawgit.com/Slevinski/signwriting_2010_fonts/master/source/png_sutton.zip
+[54]: https://cdn.rawgit.com/Slevinski/signwriting_2010_fonts/master/source/svg_refinement.zip
+[55]: https://cdn.rawgit.com/Slevinski/signwriting_2010_fonts/master/source/svg_line.zip
+[56]: https://cdn.rawgit.com/Slevinski/signwriting_2010_fonts/master/source/svg_fill.zip
+[57]: https://cdn.rawgit.com/Slevinski/signwriting_2010_fonts/master/fonts/SignWriting%202010.ttf
+[58]: https://cdn.rawgit.com/Slevinski/signwriting_2010_fonts/master/fonts/SignWriting%202010.log
 [59]: http://codepen.io/Slevinski/pen/exnju
 [60]: https://github.com/Slevinski/sw10js
-[61]: https://github.com/Slevinski/signwriting_2010_fonts/raw/master/fonts/SignWriting%202010.mobileconfig
+[61]: https://cdn.rawgit.com/Slevinski/signwriting_2010_fonts/master/fonts/SignWriting%202010.mobileconfig
 [62]: http://github.com/Slevinski/sw10js
 [63]: http://www.opensource.org/licenses/mit-license.php
 [64]: http://www.unicode.org/versions/Unicode8.0.0/
-[65]: https://raw.githubusercontent.com/Slevinski/sw10js/gh-pages/sw10.js
+[65]: https://cdn.rawgit.com/Slevinski/sw10js/gh-pages/sw10.js
+[66]: http://github.com/Slevinski/signmaker
