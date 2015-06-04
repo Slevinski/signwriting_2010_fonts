@@ -1,8 +1,7 @@
-The SignWriting 2010 Fonts
-=====================
+## The SignWriting 2010 Fonts
 - - - 
-> Version 1.1.2  
-May 20th, 2015
+> Version 1.1.3  
+June 4th, 2015
 
 SignWriting 2010 is a typeface for written sign languages
 which makes the entire [International SignWriting Alphabet 2010 symbol set][19] available in a TrueType font with OpenType features.
@@ -13,24 +12,45 @@ The SignWriting 2010 Fonts are used in the [SignWriting 2010 JavaScript Library]
 
 The SignWriting 2010 Fonts are highlighted in [SignMaker 2015][66].
 
-TrueType Fonts
------------------
+### TrueType Fonts
 The SignWriting 2010 Fonts are fully functional and production ready.  The image quality and glyph alignment has been perfected.
 
+#### Installation
+The TrueType Fonts can be installed on Linux, Windows, Mac, and iOS. 
 
-### Downloads and log reports
-> Reserved Font Name: [SignWriting 2010][57] with [log report][58]  
-Reserved Font Name: [SignWriting 2010 Filling][1] with [log report][2] 
+- Reserved Font Name: [SignWriting 2010][57] with [log report][58]  
+- Reserved Font Name: [SignWriting 2010 Filling][1] with [log report][2]  
 
-Fonts packaged for iOS: [SignWriting 2010 Configuration Profile][61] 
+Fonts packaged for iOS: [SignWriting 2010 Configuration Profile][61]
 
+#### CSS Font-Face
+The CSS Font-Face declaration works with all systems, regardless if the fonts are installed or not.  Use the CSS below with any HTML page to access the TrueType fonts.
 
+When the TrueType fonts are not installed, the CSS Font-Face declaration will cause the browser to automatically download and install the fonts in the browser cache. The fonts are about 13 MB combined so the first page view will experience a slight delay while the fonts are downloaded and installed.  All subsequent page views, regardless of domain, will use the fonts that have already been installed in the browser cache without any additional delay.
+
+When the TrueType fonts are installed on a system, the CSS Font-Face declaration will cause the browser to use the already installed local fonts and will not download the fonts from the URL.  When the fonts are installed, the CSS Font-Face isn't required but neither will it negatively affect performance.
+
+    @font-face {
+      font-family: "SignWriting 2010";
+      src: 
+        local('SignWriting 2010'),
+        local('SignWriting_2010'),
+        url('https://cdn.rawgit.com/Slevinski/signwriting_2010_fonts/master/fonts/SignWriting%202010.ttf') format('truetype');
+    }
+    @font-face {
+      font-family: "SignWriting 2010 Filling";
+      src: 
+        local('SignWriting 2010 Filling'),
+        local('SignWriting_2010_Filling'),
+        url('https://cdn.rawgit.com/Slevinski/signwriting_2010_fonts/master/fonts/SignWriting%202010%20Filling.ttf') format('truetype');
+    }
 ### License
-The SignWriting 2010 Fonts are free and open source, released under
-[SIL Open Font License][24], version 1.1.
+The SignWriting 2010 Fonts are free and open source.
 
-This Font Software is Copyright (c) 1974-2015  
-Center For Sutton Movement Writing, Inc.
+>SignWriting 2010 Fonts  
+Copyright (c) 1974-2015, Center for Sutton Movement Writing, inc  
+Licensed under the [SIL Open Font License][24] v1.1
+
 
 Original symbol design by Valerie Sutton.
 Symbol image refinement in SVG by Adam Frost.
@@ -91,7 +111,7 @@ S10000..S38b07; ISWA 2010 Symbol Keys
 ASCII characters, UTF-8 compatible.  
 [Symbol keys][19] used as glyph names in the font files.
 
-The characters conversions implementation can be found in the [SignWriting 2010 JavaScript Library][60] in the ["sw10.js"][65] file under functions "uni8" for Unicode 8, "pua" for SignWriting Text characters on plane 15, "code" for symbol code points characters on plane 16.  
+The characters conversions implementation can be found in the [SignWriting 2010 JavaScript Library][60] in the "sw10.js" file under functions "uni8" for Unicode 8, "pua" for SignWriting Text characters on plane 15, and "code" for symbol code point characters on plane 16.  
 
 The character encodings used in SignWriting 2010 are defined in an Internet Draft submitted to the IETF: [draft-slevinski-signwriting-text][26].
 The document is improved and resubmitted every 6 months.
@@ -114,6 +134,7 @@ To Do
 
 Version History
 ------------------
+* 1.1.3 - June 4th, 2015: added CSS font-face declaration
 * 1.1.2 - May 20th, 2015: updated font links to CDN
 * 1.1.1 - Feb 4th, 2015: updated character sets information
 * 1.1 - Nov 10th, 2014: fine tuned glyphs for the SignWriting 2010 JavaScript library and added iOS support with config profile
