@@ -1,7 +1,7 @@
 ## The SignWriting 2010 Fonts
 - - - 
-> Version 1.1.3  
-June 4th, 2015
+> Version 1.1.4  
+June 26th, 2015
 
 SignWriting 2010 is a typeface for written sign languages
 which makes the entire [International SignWriting Alphabet 2010 symbol set][19] available in a TrueType font with OpenType features.
@@ -96,7 +96,7 @@ Character Sets
 The various character sets used to access the symbol glyphs are Unicode compatible.  
 
 1D800..1DAAF; Sutton SignWriting  
-To be published in [Unicode 8][64] in [2015][22].  
+[Unicode 8][64] support without facial diacritic combining.  
 Uses 1 to 3 characters per symbol.
 
 FD800..FDFFF; SignWriting Text   
@@ -134,6 +134,7 @@ To Do
 
 Version History
 ------------------
+* 1.1.4 - June 26th, 2015: no facial diacritic combining
 * 1.1.3 - June 4th, 2015: added CSS font-face declaration
 * 1.1.2 - May 20th, 2015: updated font links to CDN
 * 1.1.1 - Feb 4th, 2015: updated character sets information
