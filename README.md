@@ -1,82 +1,67 @@
 ## The SignWriting 2010 Fonts
 - - - 
-> Version 1.1.4  
-June 26th, 2015
+> Version 2.0.0  
+September 13th, 2016
 
-SignWriting 2010 is a typeface for written sign languages
-which makes the entire [International SignWriting Alphabet 2010 symbol set][19] available in a TrueType font with OpenType features.
+SignWriting 2010 is a typeface for written sign languages which makes the entire [International SignWriting Alphabet 2010 symbol set][19] available in TrueType fonts.  
 
-The SignWriting 2010 Fonts are built with the [SignWriting 2010 Tools][30].
+The Sutton SignWriting fonts are an updates revision of the SignWriting 2010 fonts which fixes the appearance and size for some of the symbols.  The fonts are built with the [SignWriting 2010 Tools][30].  The Sutton SignWriting Fonts are used in the [Sutton SignWriting Project][67].
 
-The SignWriting 2010 Fonts are used in the [SignWriting 2010 JavaScript Library][60].
-
-The SignWriting 2010 Fonts are highlighted in [SignMaker 2015][66].
 
 ### TrueType Fonts
-The SignWriting 2010 Fonts are fully functional and production ready.  The image quality and glyph alignment has been perfected.
+The Sutton SignWriting fonts are fully functional and production ready.  
+- Sutton SignWriting - the positive space of the symbol glyphs on plane 4
+- Sutton SignWriting Fill - the negative space of the symbol glyphs on plane 16
 
 #### Installation
 The TrueType Fonts can be installed on Linux, Windows, Mac, and iOS. 
 
-- Reserved Font Name: [SignWriting 2010][57] with [log report][58]  
-- Reserved Font Name: [SignWriting 2010 Filling][1] with [log report][2]  
+- Reserved Font Name: [Sutton SignWriting][68] with [log report][69]  
+- Reserved Font Name: [Sutton SignWriting Fill][70] with [log report][71]  
 
-Fonts packaged for iOS: [SignWriting 2010 Configuration Profile][61]
+Fonts packaged for iOS: [SignWriting 2010 Configuration Profile][72]
 
 #### CSS Font-Face
 The CSS Font-Face declaration works with all systems, regardless if the fonts are installed or not.  Use the CSS below with any HTML page to access the TrueType fonts.
 
-When the TrueType fonts are not installed, the CSS Font-Face declaration will cause the browser to automatically download and install the fonts in the browser cache. The fonts are about 13 MB combined so the first page view will experience a slight delay while the fonts are downloaded and installed.  All subsequent page views, regardless of domain, will use the fonts that have already been installed in the browser cache without any additional delay.
+When the TrueType fonts are not installed, the CSS Font-Face declaration will cause the browser to automatically download and install the fonts in the browser cache. The fonts are about 10 MB combined so the first page view will experience a slight delay while the fonts are downloaded and installed.  All subsequent page views, regardless of domain, will use the fonts that have already been installed in the browser cache without any additional delay.
 
 When the TrueType fonts are installed on a system, the CSS Font-Face declaration will cause the browser to use the already installed local fonts and will not download the fonts from the URL.  When the fonts are installed, the CSS Font-Face isn't required but neither will it negatively affect performance.
 
     @font-face {
-      font-family: "SignWriting 2010";
+      font-family: "SuttonSignWriting";
       src: 
-        local('SignWriting 2010'),
-        local('SignWriting_2010'),
-        url('https://cdn.rawgit.com/Slevinski/signwriting_2010_fonts/master/fonts/SignWriting%202010.ttf') format('truetype');
+        local('SuttonSignWriting'),
+        url('https://cdn.rawgit.com/Slevinski/signwriting_2010_fonts/master/fonts/SuttonSignWriting.ttf') format('truetype');
     }
     @font-face {
-      font-family: "SignWriting 2010 Filling";
+      font-family: "SuttonSignWritingFill";
       src: 
-        local('SignWriting 2010 Filling'),
-        local('SignWriting_2010_Filling'),
-        url('https://cdn.rawgit.com/Slevinski/signwriting_2010_fonts/master/fonts/SignWriting%202010%20Filling.ttf') format('truetype');
+        local('SuttonSignWritingFill'),
+        url('https://cdn.rawgit.com/Slevinski/signwriting_2010_fonts/master/fonts/SuttonSignWritingFill.ttf') format('truetype');
     }
 ### License
-The SignWriting 2010 Fonts are free and open source.
+The Sutton SignWriting Fonts are free and open source.
 
->SignWriting 2010 Fonts  
-Copyright (c) 1974-2015, Center for Sutton Movement Writing, inc  
+>Sutton SignWriting Fonts  
+Copyright (c) 1974-2016, Center for Sutton Movement Writing, inc  
 Licensed under the [SIL Open Font License][24] v1.1
 
 
-Original symbol design by Valerie Sutton.
-Symbol image refinement in SVG by Adam Frost.
+Original symbol design by Valerie Sutton.  
+Symbol image refinement in SVG by Adam Frost.  
 Encoding and transformation by Stephen E Slevinski Jr.
 
-The SVGs of the compatibility glyphs for the character set "S1234567890abcdef" are based on [Source Sans Pro][25]
-written by Paul D. Hunt and licensed under [SIL Open Font License][24], version 1.1.
-
-### Demo Pages
-The symbol demo pages can be created with the SignWriting 2010 Tools.
-There are 3 types of demo pages available online.
-
-* Unicode 8 demo pages: [view online][47] or [download][48]
-* Unicode Private Use Area demo pages: [view online][49] or [download][50]
-* Symbol Key demo pages: [view online][51] or [download][52]
-
-Additionally, complete sign images with the TrueType fonts inside of SVGs is working nicely.  View the [codepen][59] example for a working demonstration.
 
 - - - 
 
 Source SVG
 ---------------
-The source SVG required to build the TrueType fonts  is available in 2 data files.  These files were created with the SignWriting 2010 Tools by retracing the SVG Refinement.  These files can be unpacked with the SignWriting 2010 Tools.
+The source SVG required to build the TrueType fonts  is available in 2 data files.  These files were created with the SignWriting 2010 Tools by retracing the SVG Refinement.  These files can be unpacked with the SignWriting 2010 Tools.  Each symbol has an explicit size listed in the [symsize.txt][75] file.
 
 * [SVG Line][55]  
-* [SVG Filling][56]
+* [SVG Filling][56]  
+
 
 - - -
 
@@ -91,33 +76,12 @@ These files can be unpacked with the SignWriting 2010 Tools.
 
 - - -
 
-Character Sets
+Unicode 8 Support
 --------------------
-The various character sets used to access the symbol glyphs are Unicode compatible.  
-
 1D800..1DAAF; Sutton SignWriting  
 [Unicode 8][64] support without facial diacritic combining.  
 Uses 1 to 3 characters per symbol.
-
-FD800..FDFFF; SignWriting Text   
-Private Use Area characters.  
-Uses 3 characters per symbol.  Includes characters for structural markers and numbers.
-
-100000...10FFFF; Symbol Code Points  
-Private Use Area characters.  
-Uses 1 character per symbol.
-
-S10000..S38b07; ISWA 2010 Symbol Keys  
-ASCII characters, UTF-8 compatible.  
-[Symbol keys][19] used as glyph names in the font files.
-
-The characters conversions implementation can be found in the [SignWriting 2010 JavaScript Library][60] in the "sw10.js" file under functions "uni8" for Unicode 8, "pua" for SignWriting Text characters on plane 15, and "code" for symbol code point characters on plane 16.  
-
-The character encodings used in SignWriting 2010 are defined in an Internet Draft submitted to the IETF: [draft-slevinski-signwriting-text][26].
-The document is improved and resubmitted every 6 months.
-The character design has been stable since January 12, 2012.
-The current version of the Internet Draft is 05.
-The next version is planned for November 2015.
+- Reserved Font Name: [Sutton SignWriting 8][73] with [log report][74]  
 
 - - -
 
@@ -129,11 +93,11 @@ This is a work in progress. Feedback, bug reports, and patches are welcomed.
 
 To Do
 -------
-* Investigate symbol irregularities for the various browser/platform combinations.
-* Fine tune symbol design where needed. 
+* 2-dimensional layout within font
 
 Version History
 ------------------
+* 2.0.0 - Sept 13th, 2016: Sutton SignWriting fonts improvement
 * 1.1.4 - June 26th, 2015: no facial diacritic combining
 * 1.1.3 - June 4th, 2015: added CSS font-face declaration
 * 1.1.2 - May 20th, 2015: updated font links to CDN
@@ -210,3 +174,12 @@ Version History
 [64]: http://www.unicode.org/versions/Unicode8.0.0/
 [65]: https://cdn.rawgit.com/Slevinski/sw10js/gh-pages/sw10.js
 [66]: http://github.com/Slevinski/signmaker
+[67]: https://github.com/Slevinski/SuttonSignWriting
+[68]: https://cdn.rawgit.com/Slevinski/signwriting_2010_fonts/master/fonts/SuttonSignWriting.ttf
+[69]: https://cdn.rawgit.com/Slevinski/signwriting_2010_fonts/master/fonts/SuttonSignWriting.log
+[70]: https://cdn.rawgit.com/Slevinski/signwriting_2010_fonts/master/fonts/SuttonSignWritingFill.ttf
+[71]: https://cdn.rawgit.com/Slevinski/signwriting_2010_fonts/master/fonts/SuttonSignWritingFill.log
+[72]: https://cdn.rawgit.com/Slevinski/signwriting_2010_fonts/master/fonts/SuttonSignWriting.mobileconfig
+[73]: https://cdn.rawgit.com/Slevinski/signwriting_2010_fonts/master/fonts/SuttonSignWriting8.ttf
+[74]: https://cdn.rawgit.com/Slevinski/signwriting_2010_fonts/master/fonts/SuttonSignWriting8.log
+[75]: https://cdn.rawgit.com/Slevinski/signwriting_2010_fonts/master/source/symsize.txt
