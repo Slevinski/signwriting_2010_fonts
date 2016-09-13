@@ -1,6 +1,6 @@
 ## The SignWriting 2010 Fonts
 - - - 
-> Version 2.0.0  
+> Version 2.0.1  
 September 13th, 2016
 
 SignWriting 2010 is a typeface for written sign languages which makes the entire [International SignWriting Alphabet 2010 symbol set][19] available in TrueType fonts.  
@@ -97,6 +97,7 @@ To Do
 
 Version History
 ------------------
+* 2.0.1 - Sept 13th, 2016: updated source links
 * 2.0.0 - Sept 13th, 2016: Sutton SignWriting fonts improvement
 * 1.1.4 - June 26th, 2015: no facial diacritic combining
 * 1.1.3 - June 4th, 2015: added CSS font-face declaration
@@ -162,8 +163,8 @@ Version History
 [52]: http://signpuddle.net/iswa/demo/symbolkey.zip
 [53]: https://cdn.rawgit.com/Slevinski/signwriting_2010_fonts/master/source/png_sutton.zip
 [54]: https://cdn.rawgit.com/Slevinski/signwriting_2010_fonts/master/source/svg_refinement.zip
-[55]: https://cdn.rawgit.com/Slevinski/signwriting_2010_fonts/master/source/svg_line.zip
-[56]: https://cdn.rawgit.com/Slevinski/signwriting_2010_fonts/master/source/svg_fill.zip
+[55]: https://cdn.rawgit.com/Slevinski/signwriting_2010_fonts/cae26de2d2c85aedd2940e1dab67c2c1294e6303/source/svg_line.zip
+[56]: https://cdn.rawgit.com/Slevinski/signwriting_2010_fonts/cae26de2d2c85aedd2940e1dab67c2c1294e6303/source/svg_fill.zip
 [57]: https://cdn.rawgit.com/Slevinski/signwriting_2010_fonts/master/fonts/SignWriting%202010.ttf
 [58]: https://cdn.rawgit.com/Slevinski/signwriting_2010_fonts/master/fonts/SignWriting%202010.log
 [59]: http://codepen.io/Slevinski/pen/exnju
