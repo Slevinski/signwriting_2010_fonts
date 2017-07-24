@@ -1,7 +1,7 @@
 ## The SignWriting 2010 Fonts
 - - - 
-> Version 2.2.0  
-July 20th, 2017
+> Version 2.2.1  
+July 24th, 2017
 
 SignWriting 2010 is a typeface for written sign languages which makes the entire [International SignWriting Alphabet 2010 symbol set](http://signbank.org/iswa) available in TrueType fonts.  
 
@@ -30,7 +30,7 @@ Using this font requires the support of the ligature feature "ccmp" for Glyph Co
 
 * [SuttonSignWriting1d.ttf](https://cdn.rawgit.com/Slevinski/signwriting_2010_fonts/master/fonts/SuttonSignWriting1d.ttf)
 
-#### Installation
+### Installation
 The TrueType Fonts can be installed on Linux, Windows, and Mac.  For iOS, a configuration profile can be created using any or all of the files below. 
 
 - Reserved Font Name: [Sutton SignWriting Line](https://cdn.rawgit.com/Slevinski/signwriting_2010_fonts/master/fonts/SuttonSignWritingLine.ttf) with [log report](https://cdn.rawgit.com/Slevinski/signwriting_2010_fonts/master/fonts/SuttonSignWritingLine.log)  
@@ -38,8 +38,22 @@ The TrueType Fonts can be installed on Linux, Windows, and Mac.  For iOS, a conf
 - Reserved Font Name: [Sutton SignWriting 1D Optimal](https://cdn.rawgit.com/Slevinski/signwriting_2010_fonts/master/fonts/SuttonSignWriting1dOpt.ttf) with [log report](https://cdn.rawgit.com/Slevinski/signwriting_2010_fonts/master/fonts/SuttonSignWriting1dOpt.log)  
 - Reserved Font Name: [Sutton SignWriting 1D](https://cdn.rawgit.com/Slevinski/signwriting_2010_fonts/master/fonts/SuttonSignWriting1d.ttf) with [log report](https://cdn.rawgit.com/Slevinski/signwriting_2010_fonts/master/fonts/SuttonSignWriting1d.log)  
 
+#### Windows, Linux, and Mac
 
-#### CSS Font-Face
+Installation is straight forward for these platforms. Simply download the TrueType fonts and install as usual.  
+
+#### Mac and iOS
+
+Installation is possible for Mac OS X and iOS with a configuration profile. The Sutton SignWriting Plus configuration profile includes 3 fonts: SuttonSignWritingLine, SuttonSignWritingFill, and SuttonSignWriting1D. With the configuration profile installed, the Unicode Option 1 characters can be used throughout the operating system, even as file and folder names.
+
+* [Sutton SignWriting Plus Mobile Configuration](https://cdn.rawgit.com/Slevinski/signwriting_2010_fonts/master/fonts/SuttonSignWritingPlus.mobileconfig)
+
+The configuration profile is difficult to install on iOS. The issue is being investigated.
+
+#### Android
+
+Android can not install the fonts directly onto the system. The CSS declarations below will install the fonts in the browser cache. 
+### CSS Font-Face
 The CSS Font-Face declaration works with all systems, regardless if the fonts are installed or not.  Use the CSS below with any HTML page to access the TrueType fonts.
 
 When the TrueType fonts are not installed, the CSS Font-Face declaration will cause the browser to automatically download and install the fonts in the browser cache. The fonts range from 2.5 MB to 9 MB each so the first page view will experience a slight delay while the fonts are downloaded and installed.  All subsequent page views, regardless of domain, will use the fonts that have already been installed in the browser cache without any additional delay.
@@ -80,31 +94,27 @@ Licensed under the [SIL Open Font License](http://scripts.sil.org/OFL) v1.1
 
 Original symbol design by Valerie Sutton.  
 Symbol image refinement in SVG by Adam Frost.  
-Encoding and transformation by Stephen E Slevinski Jr.
-
+Encoding and transformation by Stephen E Slevinski Jr.  
 
 - - - 
 
-Source SVG
----------------
+### Source SVG
 The source SVG required to build the TrueType fonts  is available in 2 data files.  These files were created with the SignWriting 2010 Tools by retracing the SVG Refinement.  These files can be unpacked with the SignWriting 2010 Tools.  Each symbol has an explicit size listed in the source/symsize.txt file.
 
 * [SVG Line](https://cdn.rawgit.com/Slevinski/signwriting_2010_fonts/cae26de2d2c85aedd2940e1dab67c2c1294e6303/source/svg_line.zip)  
 * [SVG Filling](https://cdn.rawgit.com/Slevinski/signwriting_2010_fonts/cae26de2d2c85aedd2940e1dab67c2c1294e6303/source/svg_fill.zip)  
 
-
 - - -
 
-Deprecated
----------------------
+### Deprecated
 The original SuttonSignWriting.ttf used plane 4 for the symbol line in SVG with glyphs that are below the baseline.  This conflicted with the 1D and 2D font designs.  This font has been replaced with "SuttonSignWritingLine.ttf" on plane 15.
 
 - Reserved Font Name: [Sutton SignWriting](https://cdn.rawgit.com/Slevinski/signwriting_2010_fonts/master/fonts/SuttonSignWriting.ttf) with [log report](https://cdn.rawgit.com/Slevinski/signwriting_2010_fonts/master/fonts/SuttonSignWriting.log)  
 
+The original "SuttonSignWriting.mobileconfig" includes a deprecated font.  This configuration profile has been replaced with "SuttonSignWritingPlus.mofileconfig".
 - - -
 
-Historical Formats
----------------------
+### Historical Formats
 The original font was created by Valerie Sutton as individual PNG files.  The SVG Refinement was a partnership of hand crafted SVGs by Adam Frost with automation tools  by Stephen E Slevinski Jr. 
 
 These files can be unpacked with the SignWriting 2010 Tools.
@@ -114,8 +124,7 @@ These files can be unpacked with the SignWriting 2010 Tools.
 
 - - -
 
-Unicode 8 Support
---------------------
+### Unicode 8 Support
 1D800..1DAAF; Sutton SignWriting  
 [Unicode 8](http://www.unicode.org/versions/Unicode8.0.0/) support without facial diacritic combining.  
 Uses 1 to 3 characters per symbol.
@@ -123,18 +132,18 @@ Uses 1 to 3 characters per symbol.
 
 - - -
 
-Epilogue
-----------
+### Epilogue
 This is a work in progress. Feedback, bug reports, and patches are welcomed.
 
 - - -
 
-To Do
--------
+### To Do
 * 2-dimensional layout within font
 
-Version History
-------------------
+- - -
+
+### Version History
+* 2.2.1 - July 24th, 2017: added SuttonSignWritingPlus.mobileconfig
 * 2.2.0 - July 20th, 2017: added SuttonSignWritingLine on plane 15
 * 2.1.0 - June 29th, 2017: added 1-D fonts for Unicode options 1 and 2
 * 2.0.1 - Sept 13th, 2016: updated source links
