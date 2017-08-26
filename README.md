@@ -1,13 +1,23 @@
 ## The SignWriting 2010 Fonts
 - - - 
-> Version 2.2.1  
-July 24th, 2017
+> Version 3.0.0  
+August 26th, 2017
 
 SignWriting 2010 is a typeface for written sign languages which makes the entire [International SignWriting Alphabet 2010 symbol set](http://signbank.org/iswa) available in TrueType fonts.  
 
-The Sutton SignWriting fonts are an updates revision of the SignWriting 2010 fonts which fixes the appearance and size for some of the symbols.  
-The fonts are built with the [SignWriting 2010 Tools](https://github.com/Slevinski/signwriting_2010_tools).  The Sutton SignWriting Fonts are used in the [Sutton SignWriting Project](https://github.com/Slevinski/SuttonSignWriting).
+The Sutton SignWriting fonts are an updated revision of the SignWriting 2010 fonts which fixes the appearance and size for some of the symbols.  
 
+The Sutton SignWriting Fonts are used in the [Sutton SignWriting Project](https://github.com/Slevinski/SuttonSignWriting) and the SignWriting Looking Glass WebExtension for FireFox, Edge, Chrome, and Opera.
+
+The fonts are built with the [SignWriting 2010 Tools](https://github.com/Slevinski/signwriting_2010_tools).
+
+### Character Sets
+
+#### FSW - Formal SignWriting in ASCII
+Signs are written as SignWriting words with mathamatical names of ASCII characters from the set: ABLMRS0123456789xabcdef.  Stable since January 2012.
+
+#### SWU - SignWriting in Unicode
+Signs are written as SignWriting words with an experimental Unicode character design.  This character set overwrites the Sutton SignWriting Block (U+1D800 - U+1D9FF) and uses Plane 4 for the Sutton SignWriting symbols.
 
 ### TrueType Fonts
 The Sutton SignWriting TrueType fonts are available for download and installation.  
@@ -18,25 +28,28 @@ There are two fonts for the Sutton SignWriting symbols that are used in SVG: the
 * [SuttonSignWritingLine.ttf](https://cdn.rawgit.com/Slevinski/signwriting_2010_fonts/master/fonts/SuttonSignWritingLine.ttf) - the positive space of the symbol glyphs on Unicode plane 15
 * [SuttonSignWritingFill.ttf](https://cdn.rawgit.com/Slevinski/signwriting_2010_fonts/master/fonts/SuttonSignWritingFill.ttf) - the negative space of the symbol glyphs on Unicode plane 16
 
-#### 1 Dimensional Font for Unicode Option 1
-The Sutton SignWriting 1D Optimal font visualizes a Formal SignWriting word as a 1-dimensional string of glyphs for structural markers, symbols, and numbers. The font uses the Unicode Option 1 character set. These glyphs are centered above the baseline and are meant to be used in traditionally 1-dimensional situations. 
+#### One Dimensional Font for SignWriting in Unicode
+The Sutton SignWriting One-D font is production ready.  It uses the SignWriting in Unicode (SWU) characters to visualizes a sign as a 1-dimensional string of glyphs for structural markers, symbols, and numbers.  These glyphs are centered above the baseline and are meant to be used in traditionally 1-dimensional situations.
 
-* [SuttonSignWriting1dOpt.ttf](https://cdn.rawgit.com/Slevinski/signwriting_2010_fonts/master/fonts/SuttonSignWriting1dOpt.ttf)
+* [SuttonSignWritingOneD.ttf](https://cdn.rawgit.com/Slevinski/signwriting_2010_fonts/master/fonts/SuttonSignWritingOneD.ttf)
 
-#### 1 Dimensional Font for Unicode Option 2  
-The Sutton SignWriting 1D font visualizes a Formal SignWriting word as a 1-dimensional string of glyphs for structural markers, symbols, and numbers. The font uses the Unicode Option 2 character set. These glyphs are centered above the baseline and are meant to be used in traditionally 1-dimensional situations.
+#### Two Dimensional Font for SignWriting in Unicode  
+The Sutton SignWriting Two-D font is in development.  It will use the SignWriting in Unicode characters with the Universal Shaping Engine to correctly display a sign as a 2-dimensional cluster of symbols glyphs. 
 
-Using this font requires the support of the ligature feature "ccmp" for Glyph Composition/Decomposition. Support in older software is limited. In the browser, "ccmp" ligatures support with extension lookup is sometimes possible, but it will require extra css to define the font famiily and may require extra css to enable the "ccmp" feature. 
+* [Sutton SignWriting Two-D Font Project](https://meta.wikimedia.org/wiki/Grants:Project/slevinski/ASL_Wikipedia_2-D_Font_Development_for_SignWriting)
 
-* [SuttonSignWriting1d.ttf](https://cdn.rawgit.com/Slevinski/signwriting_2010_fonts/master/fonts/SuttonSignWriting1d.ttf)
+#### Sutton SignWriting Null  
+The Sutton SignWriting Null font provides empty glyphs for invalid symbol codes on Plane 4 and Plane 15.  The font is useful to normalize how browsers and software process invalid characters.
+
+* [SuttonSignWritingNull.ttf](https://cdn.rawgit.com/Slevinski/signwriting_2010_fonts/master/fonts/SuttonSignWritingNull.ttf)
 
 ### Installation
-The TrueType Fonts can be installed on Linux, Windows, and Mac.  For iOS, a configuration profile can be created using any or all of the files below. 
+The TrueType Fonts can be installed on Linux, Windows, and Mac.  For Mac OS and iOS, a configuration profile can be created with the fonts below. 
 
 - Reserved Font Name: [Sutton SignWriting Line](https://cdn.rawgit.com/Slevinski/signwriting_2010_fonts/master/fonts/SuttonSignWritingLine.ttf) with [log report](https://cdn.rawgit.com/Slevinski/signwriting_2010_fonts/master/fonts/SuttonSignWritingLine.log)  
 - Reserved Font Name: [Sutton SignWriting Fill](https://cdn.rawgit.com/Slevinski/signwriting_2010_fonts/master/fonts/SuttonSignWritingFill.ttf) with [log report](https://cdn.rawgit.com/Slevinski/signwriting_2010_fonts/master/fonts/SuttonSignWritingFill.log)  
-- Reserved Font Name: [Sutton SignWriting 1D Optimal](https://cdn.rawgit.com/Slevinski/signwriting_2010_fonts/master/fonts/SuttonSignWriting1dOpt.ttf) with [log report](https://cdn.rawgit.com/Slevinski/signwriting_2010_fonts/master/fonts/SuttonSignWriting1dOpt.log)  
-- Reserved Font Name: [Sutton SignWriting 1D](https://cdn.rawgit.com/Slevinski/signwriting_2010_fonts/master/fonts/SuttonSignWriting1d.ttf) with [log report](https://cdn.rawgit.com/Slevinski/signwriting_2010_fonts/master/fonts/SuttonSignWriting1d.log)  
+- Reserved Font Name: [Sutton SignWriting One D](https://cdn.rawgit.com/Slevinski/signwriting_2010_fonts/master/fonts/SuttonSignWritingOneD.ttf) with [log report](https://cdn.rawgit.com/Slevinski/signwriting_2010_fonts/master/fonts/SuttonSignWritingOneD.log)  
+- Reserved Font Name: [Sutton SignWriting Null](https://cdn.rawgit.com/Slevinski/signwriting_2010_fonts/master/fonts/SuttonSignWritingNull.ttf) with [log report](https://cdn.rawgit.com/Slevinski/signwriting_2010_fonts/master/fonts/SuttonSignWritingNull.log)  
 
 #### Windows, Linux, and Mac
 
@@ -44,15 +57,30 @@ Installation is straight forward for these platforms. Simply download the TrueTy
 
 #### Mac and iOS
 
-Installation is possible for Mac OS X and iOS with a configuration profile. The Sutton SignWriting Plus configuration profile includes 3 fonts: SuttonSignWritingLine, SuttonSignWritingFill, and SuttonSignWriting1D. With the configuration profile installed, the Unicode Option 1 characters can be used throughout the operating system, even as file and folder names.
+Installation is possible for Mac OS and iOS with two configuration profiles. The Sutton SignWriting Symbol profile and the Sutton SignWriting One profile. 
 
-* [Sutton SignWriting Plus Mobile Configuration](https://cdn.rawgit.com/Slevinski/signwriting_2010_fonts/master/fonts/SuttonSignWritingPlus.mobileconfig)
+##### Sutton SignWriting Symbol (configuration profile)
+The Sutton SignWriting Symbol configuration profile contains two fonts for use in SVG, the HTML Canvas, and other Cartesian Coordinate based systems.
 
-The configuration profile is difficult to install on iOS. The issue is being investigated.
+The Sutton SignWriting Line Font contains glyphs for the positive space of the symbol images with characters on Unicode plane 15.
+
+The Sutton SignWriting Fill Font contains glyphs for the negative space of the symbol images with characters on Unicode plane 16.
+
+- [Sutton SignWriting Symbol (configuration profile)](https://cdn.rawgit.com/Slevinski/signwriting_2010_fonts/master/fonts/SuttonSignWritingSymbol.mobileconfig)  
+
+##### Sutton SignWriting One (configuration profile)
+The Sutton SignWriting One configuration profile contains two fonts for use in text input and for rendering normalization.
+
+The Sutton SignWriting One D Font contains glyphs for symbols, markers, and numbers for use in traditional one dimensional text using SWU as an experimental Unicode design.
+
+The Sutton SignWriting Null Font contains empty glyphs for invalid symbol codes on Plane 4 and Plane 15. This font is useful to normalize how browsers and software process invalid characters.
+
+* [Sutton SignWriting One (configuration profile)](https://cdn.rawgit.com/Slevinski/signwriting_2010_fonts/master/fonts/SuttonSignWritingOne.mobileconfig)  
 
 #### Android
 
 Android can not install the fonts directly onto the system. The CSS declarations below will install the fonts in the browser cache. 
+
 ### CSS Font-Face
 The CSS Font-Face declaration works with all systems, regardless if the fonts are installed or not.  Use the CSS below with any HTML page to access the TrueType fonts.
 
@@ -73,16 +101,16 @@ When the TrueType fonts are installed on a system, the CSS Font-Face declaration
         url('https://cdn.rawgit.com/Slevinski/signwriting_2010_fonts/master/fonts/SuttonSignWritingFill.ttf') format('truetype');
     }
     @font-face {
-      font-family: "SuttonSignWriting1dOpt";
+      font-family: "SuttonSignWritingOneD";
       src: 
-        local('SuttonSignWriting1dOpt'),
-        url('https://cdn.rawgit.com/Slevinski/signwriting_2010_fonts/master/fonts/SuttonSignWriting1dOpt.ttf') format('truetype');
+        local('SuttonSignWritingOneD'),
+        url('https://cdn.rawgit.com/Slevinski/signwriting_2010_fonts/master/fonts/SuttonSignWritingOneD.ttf') format('truetype');
     }
     @font-face {
-      font-family: "SuttonSignWriting1d";
+      font-family: "SuttonSignWritingNull";
       src: 
-        local('SuttonSignWriting1d'),
-        url('https://cdn.rawgit.com/Slevinski/signwriting_2010_fonts/master/fonts/SuttonSignWriting1d.ttf') format('truetype');
+        local('SuttonSignWritingNull'),
+        url('https://cdn.rawgit.com/Slevinski/signwriting_2010_fonts/master/fonts/SuttonSignWritingNull.ttf') format('truetype');
     }
 ### License
 The Sutton SignWriting Fonts are free and open source.
@@ -109,9 +137,30 @@ The source SVG required to build the TrueType fonts  is available in 2 data file
 ### Deprecated
 The original SuttonSignWriting.ttf used plane 4 for the symbol line in SVG with glyphs that are below the baseline.  This conflicted with the 1D and 2D font designs.  This font has been replaced with "SuttonSignWritingLine.ttf" on plane 15.
 
-- Reserved Font Name: [Sutton SignWriting](https://cdn.rawgit.com/Slevinski/signwriting_2010_fonts/master/fonts/SuttonSignWriting.ttf) with [log report](https://cdn.rawgit.com/Slevinski/signwriting_2010_fonts/master/fonts/SuttonSignWriting.log)  
+- Reserved Font Name: Sutton SignWriting font (SuttonSignWriting.ttf)
 
-The original "SuttonSignWriting.mobileconfig" includes a deprecated font.  This configuration profile has been replaced with "SuttonSignWritingPlus.mofileconfig".
+- - -
+
+The SuttonSignWriting8.ttf included partial support for the SignWriting in Unicode 8 design: 1D800..1DAAF; Sutton SignWriting.  The font does not support facial diacritics and uses 1 to 3 characters per Sutton SignWriting symbol.  The font has serious issues and limited use.  It has been discontinued.
+
+- Reserved Font Name: Sutton SignWriting font (SuttonSignWriting8.ttf)
+
+---
+
+The SuttonSignWriting1d.ttf font add 17 characters to the SignWriting in Unicode 8 design to fully support writing a sign as a string of Unicode characters.  It has serious issues with limited use.  It has been discontinued.
+
+- Reserved Font Name: Sutton SignWriting 1D (SuttonSignWriting1d.ttf)
+
+---
+
+The Sutton SignWriting 1D Optimal font has been replaced with the Sutton SignWriting One-D font.
+
+- Reserved Font Name: Sutton SignWriting 1D Optimal (SuttonSignWriting1dOpt.ttf)
+
+---
+
+
+The Sutton SignWriting configuration profile (SuttonSignWriting.mobileconfig) and the Sutton SignWriting Plus configuration profile (SuttonSignWritingPlus.mobileconfig) both include deprecated fonts.  These profiles have been replaced with the Sutton SignWriting Symbol configuration profile (SuttonSignWritingSymbol.mobileconfig) and the Sutton SignWriting One configuration profile (SuttonSignWritingOne.mobileconfig).
 - - -
 
 ### Historical Formats
@@ -121,14 +170,6 @@ These files can be unpacked with the SignWriting 2010 Tools.
 
 * [Valerie Sutton's original PNG](https://cdn.rawgit.com/Slevinski/signwriting_2010_fonts/master/source/png_sutton.zip)
 * [SVG Refinement](https://cdn.rawgit.com/Slevinski/signwriting_2010_fonts/master/source/svg_refinement.zip)
-
-- - -
-
-### Unicode 8 Support
-1D800..1DAAF; Sutton SignWriting  
-[Unicode 8](http://www.unicode.org/versions/Unicode8.0.0/) support without facial diacritic combining.  
-Uses 1 to 3 characters per symbol.
-- Reserved Font Name: [Sutton SignWriting 8](https://cdn.rawgit.com/Slevinski/signwriting_2010_fonts/master/fonts/SuttonSignWriting8.ttf) with [log report](https://cdn.rawgit.com/Slevinski/signwriting_2010_fonts/master/fonts/SuttonSignWriting8.ttf)  
 
 - - -
 
@@ -143,6 +184,7 @@ This is a work in progress. Feedback, bug reports, and patches are welcomed.
 - - -
 
 ### Version History
+* 3.0.0 - Aug 26th, 2017: SignWriting in Unicode characters and updated fonts
 * 2.2.1 - July 24th, 2017: added SuttonSignWritingPlus.mobileconfig
 * 2.2.0 - July 20th, 2017: added SuttonSignWritingLine on plane 15
 * 2.1.0 - June 29th, 2017: added 1-D fonts for Unicode options 1 and 2
