@@ -1,7 +1,7 @@
 ## The SignWriting 2010 Fonts
 - - - 
-> Version 3.0.0  
-August 26th, 2017
+> Version 3.0.1  
+August 27th, 2017
 
 SignWriting 2010 is a typeface for written sign languages which makes the entire [International SignWriting Alphabet 2010 symbol set](http://signbank.org/iswa) available in TrueType fonts.  
 
@@ -184,6 +184,7 @@ This is a work in progress. Feedback, bug reports, and patches are welcomed.
 - - -
 
 ### Version History
+* 3.0.1 - Aug 27th, 2017: Restored deprecated fonts 
 * 3.0.0 - Aug 26th, 2017: SignWriting in Unicode characters and updated fonts
 * 2.2.1 - July 24th, 2017: added SuttonSignWritingPlus.mobileconfig
 * 2.2.0 - July 20th, 2017: added SuttonSignWritingLine on plane 15
