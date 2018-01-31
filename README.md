@@ -113,21 +113,14 @@ When the TrueType fonts are installed on a system, the CSS Font-Face declaration
         local('SuttonSignWritingNull'),
         url('https://cdn.rawgit.com/Slevinski/signwriting_2010_fonts/master/fonts/SuttonSignWritingNull.ttf') format('truetype');
     }
-### License
-The Sutton SignWriting Fonts are free and open source.
-
->Sutton SignWriting Fonts  
-Copyright (c) 1974-2018, Center for Sutton Movement Writing, inc  
-Licensed under the [SIL Open Font License](http://scripts.sil.org/OFL) v1.1
-
-
-Original symbol design by Valerie Sutton.  
-Symbol image refinement in SVG by Adam Frost.  
-Encoding and transformation by Stephen E Slevinski Jr.  
 
 - - - 
 
 ### Source SVG
+Original symbol design by Valerie Sutton.  
+Symbol image refinement in SVG by Adam Frost.  
+Encoding and transformation by Stephen E Slevinski Jr.  
+
 The source SVG required to build the TrueType fonts  is available in 2 data files.  These files were created with the SignWriting 2010 Tools by retracing the SVG Refinement.  These files can be unpacked with the SignWriting 2010 Tools.  Each symbol has an explicit size listed in the source/symsize.txt file.
 
 * [SVG Line](https://cdn.rawgit.com/Slevinski/signwriting_2010_fonts/cae26de2d2c85aedd2940e1dab67c2c1294e6303/source/svg_line.zip)  
