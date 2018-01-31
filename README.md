@@ -1,13 +1,14 @@
 ## The SignWriting 2010 Fonts
 - - - 
-> Version 3.0.1  
-August 27th, 2017
+> Version 3.0.2  
+January 31th, 2018  
+License: ofl-1.1
 
 SignWriting 2010 is a typeface for written sign languages which makes the entire [International SignWriting Alphabet 2010 symbol set](http://signbank.org/iswa) available in TrueType fonts.  
 
 The Sutton SignWriting fonts are an updated revision of the SignWriting 2010 fonts which fixes the appearance and size for some of the symbols.  
 
-The Sutton SignWriting Fonts are used in the [Sutton SignWriting Project](https://github.com/Slevinski/SuttonSignWriting) and the SignWriting Looking Glass WebExtension for FireFox, Edge, Chrome, and Opera.
+The Sutton SignWriting Fonts are used in the [Sutton SignWriting Project](https://github.com/Slevinski/SuttonSignWriting) and in [SignMaker](https://github.com/Slevinski/signmaker).
 
 The fonts are built with the [SignWriting 2010 Tools](https://github.com/Slevinski/signwriting_2010_tools).
 
@@ -116,7 +117,7 @@ When the TrueType fonts are installed on a system, the CSS Font-Face declaration
 The Sutton SignWriting Fonts are free and open source.
 
 >Sutton SignWriting Fonts  
-Copyright (c) 1974-2017, Center for Sutton Movement Writing, inc  
+Copyright (c) 1974-2018, Center for Sutton Movement Writing, inc  
 Licensed under the [SIL Open Font License](http://scripts.sil.org/OFL) v1.1
 
 
@@ -184,6 +185,7 @@ This is a work in progress. Feedback, bug reports, and patches are welcomed.
 - - -
 
 ### Version History
+* 3.0.2 - Jan 31th, 2017: Improved license declaration
 * 3.0.1 - Aug 27th, 2017: Restored deprecated fonts 
 * 3.0.0 - Aug 26th, 2017: SignWriting in Unicode characters and updated fonts
 * 2.2.1 - July 24th, 2017: added SuttonSignWritingPlus.mobileconfig
