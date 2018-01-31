@@ -1,32 +1,11 @@
-The Sutton SignWriting Fonts are released under the SIL Open Font License, Version 1.1.
+Copyright (c) 1974-2018, Center For Sutton Movement Writing, Inc.
+with Reserved Fonts Names Sutton SignWriting Line, Sutton SignWriting Fill,
+and Sutton SignWriting One-D.
+
+This Font Software is licensed under the SIL Open Font License, Version 1.1.
 This license is copied below, and is also available with a FAQ at:
 http://scripts.sil.org/OFL
 
-This Font Software is Copyright (c) 1974-2018
-Center For Sutton Movement Writing, Inc.
-
-The symbols in the International SignWriting Alphabet 2010 (ISWA 2010)
-were designed by SignWriting inventor, Valerie Sutton (sutton@signwriting.org).
-
-The symbols were refined by Adam Frost (frost@signwriting.org).
-
-The symbols were encoded, transformed, and refactored by Stephen E Slevinski Jr (slevin@signpuddle.net).
-
-# Public TrueType Fonts  
-Reserved Font Name: Sutton SignWriting Line  
-Reserved Font Name: Sutton SignWriting Fill  
-Reserved Font Name: Sutton SignWriting One-D  
-
-Center for Sutton Movement Writing, Inc. (CSMW)
-a US 501c3 nonprofit educational organization
-signwriting.org, signbank.org, movementwriting.org
-
-SignPuddle Software by Stephen E Slevinski Jr
-signpuddle.org, signpuddle.net, signpuddle.com 
-
-Trademarks
-SignWriting, SignBank, SignSymbolSequence are trademarks belonging to CSMW.
-SignPuddle, SignText, SignMaker are trademarks belonging to Stephen E Slevinski Jr.
 
 -----------------------------------------------------------
 SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007
