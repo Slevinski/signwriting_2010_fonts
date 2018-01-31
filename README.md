@@ -2,7 +2,7 @@
 - - - 
 > Version 3.0.2  
 January 31th, 2018  
-License: ofl-1.1
+License: SIL Open Font License 1.1
 
 SignWriting 2010 is a typeface for written sign languages which makes the entire [International SignWriting Alphabet 2010 symbol set](http://signbank.org/iswa) available in TrueType fonts.  
 
