@@ -1,8 +1,12 @@
 ## The SignWriting 2010 Fonts
 - - - 
-> Version 3.0.2  
-January 31th, 2018  
+> Version 3.1.0  
+February 19th, 2020  
 License: SIL Open Font License 1.1
+
+> AUTHOR: https://SteveSlevinski.me  
+> SUPPORT: https://www.patreon.com/signwriting
+
 
 SignWriting 2010 is a typeface for written sign languages which makes the entire [International SignWriting Alphabet 2010 symbol set](http://signbank.org/iswa) available in TrueType fonts.  
 
@@ -26,13 +30,13 @@ The Sutton SignWriting TrueType fonts are available for download and installatio
 #### Symbol Fonts for SVG  
 There are two fonts for the Sutton SignWriting symbols that are used in SVG: the Sutton SignWriting Line font as the positive space of the symbol glyphs on Unicode plane 15 and the Sutton SignWriting Fill font as the negative space of the symbol glyphs on Unicode plane 16. These glyphs descend below the baseline. 
 
-* [SuttonSignWritingLine.ttf](https://cdn.rawgit.com/Slevinski/signwriting_2010_fonts/master/fonts/SuttonSignWritingLine.ttf) - the positive space of the symbol glyphs on Unicode plane 15
-* [SuttonSignWritingFill.ttf](https://cdn.rawgit.com/Slevinski/signwriting_2010_fonts/master/fonts/SuttonSignWritingFill.ttf) - the negative space of the symbol glyphs on Unicode plane 16
+* [SuttonSignWritingLine.ttf](https://unpkg.com/@sutton-signwriting/font-ttf@1.0.0/font/SuttonSignWritingLine.ttf) - the positive space of the symbol glyphs on Unicode plane 15
+* [SuttonSignWritingFill.ttf](https://unpkg.com/@sutton-signwriting/font-ttf@1.0.0/font/SuttonSignWritingFill.ttf) - the negative space of the symbol glyphs on Unicode plane 16
 
 #### One Dimensional Font for SignWriting in Unicode
 The Sutton SignWriting One-D font is production ready.  It uses the SignWriting in Unicode (SWU) characters to visualizes a sign as a 1-dimensional string of glyphs for structural markers, symbols, and numbers.  These glyphs are centered above the baseline and are meant to be used in traditionally 1-dimensional situations.
 
-* [SuttonSignWritingOneD.ttf](https://cdn.rawgit.com/Slevinski/signwriting_2010_fonts/master/fonts/SuttonSignWritingOneD.ttf)
+* [SuttonSignWritingOneD.ttf](https://unpkg.com/@sutton-signwriting/font-ttf@1.0.0/font/SuttonSignWritingOneD.ttf)
 
 #### Two Dimensional Font for SignWriting in Unicode  
 The Sutton SignWriting Two-D font is in development.  It will use the SignWriting in Unicode characters with the Universal Shaping Engine to correctly display a sign as a 2-dimensional cluster of symbols glyphs. 
@@ -42,15 +46,15 @@ The Sutton SignWriting Two-D font is in development.  It will use the SignWritin
 #### Sutton SignWriting Null  
 The Sutton SignWriting Null font provides empty glyphs for invalid symbol codes on Plane 4 and Plane 15.  The font is useful to normalize how browsers and software process invalid characters.
 
-* [SuttonSignWritingNull.ttf](https://cdn.rawgit.com/Slevinski/signwriting_2010_fonts/master/fonts/SuttonSignWritingNull.ttf)
+* [SuttonSignWritingNull.ttf](https://github.com/Slevinski/signwriting_2010_fonts/raw/master/fonts/SuttonSignWritingNull.ttf)
 
 ### Installation
 The TrueType Fonts can be installed on Linux, Windows, and Mac.  For Mac OS and iOS, a configuration profile can be created with the fonts below. 
 
-- Reserved Font Name: [Sutton SignWriting Line](https://cdn.rawgit.com/Slevinski/signwriting_2010_fonts/master/fonts/SuttonSignWritingLine.ttf) with [log report](https://cdn.rawgit.com/Slevinski/signwriting_2010_fonts/master/fonts/SuttonSignWritingLine.log)  
-- Reserved Font Name: [Sutton SignWriting Fill](https://cdn.rawgit.com/Slevinski/signwriting_2010_fonts/master/fonts/SuttonSignWritingFill.ttf) with [log report](https://cdn.rawgit.com/Slevinski/signwriting_2010_fonts/master/fonts/SuttonSignWritingFill.log)  
-- Reserved Font Name: [Sutton SignWriting One D](https://cdn.rawgit.com/Slevinski/signwriting_2010_fonts/master/fonts/SuttonSignWritingOneD.ttf) with [log report](https://cdn.rawgit.com/Slevinski/signwriting_2010_fonts/master/fonts/SuttonSignWritingOneD.log)  
-- Reserved Font Name: [Sutton SignWriting Null](https://cdn.rawgit.com/Slevinski/signwriting_2010_fonts/master/fonts/SuttonSignWritingNull.ttf) with [log report](https://cdn.rawgit.com/Slevinski/signwriting_2010_fonts/master/fonts/SuttonSignWritingNull.log)  
+- Reserved Font Name: [Sutton SignWriting Line](https://unpkg.com/@sutton-signwriting/font-ttf@1.0.0/font/SuttonSignWritingLine.ttf) with [log report](https://github.com/Slevinski/signwriting_2010_fonts/raw/master/fonts/SuttonSignWritingLine.log)  
+- Reserved Font Name: [Sutton SignWriting Fill](https://unpkg.com/@sutton-signwriting/font-ttf@1.0.0/font/SuttonSignWritingFill.ttf) with [log report](https://github.com/Slevinski/signwriting_2010_fonts/raw/master/fonts/SuttonSignWritingFill.log)  
+- Reserved Font Name: [Sutton SignWriting One D](https://unpkg.com/@sutton-signwriting/font-ttf@1.0.0/font/SuttonSignWritingOneD.ttf) with [log report](https://github.com/Slevinski/signwriting_2010_fonts/raw/master/fonts/SuttonSignWritingOneD.log)  
+- Reserved Font Name: [Sutton SignWriting Null](https://github.com/Slevinski/signwriting_2010_fonts/raw/master/fonts/SuttonSignWritingNull.ttf) with [log report](https://github.com/Slevinski/signwriting_2010_fonts/raw/master/fonts/SuttonSignWritingNull.log)  
 
 #### Windows, Linux, and Mac
 
@@ -67,7 +71,7 @@ The Sutton SignWriting Line Font contains glyphs for the positive space of the s
 
 The Sutton SignWriting Fill Font contains glyphs for the negative space of the symbol images with characters on Unicode plane 16.
 
-- [Sutton SignWriting Symbol (configuration profile)](https://cdn.rawgit.com/Slevinski/signwriting_2010_fonts/master/fonts/SuttonSignWritingSymbol.mobileconfig)  
+- [Sutton SignWriting Symbol (configuration profile)](https://github.com/Slevinski/signwriting_2010_fonts/raw/master/fonts/SuttonSignWritingOne.mobileconfig)  
 
 ##### Sutton SignWriting One (configuration profile)
 The Sutton SignWriting One configuration profile contains two fonts for use in text input and for rendering normalization.
@@ -76,7 +80,7 @@ The Sutton SignWriting One D Font contains glyphs for symbols, markers, and numb
 
 The Sutton SignWriting Null Font contains empty glyphs for invalid symbol codes on Plane 4 and Plane 15. This font is useful to normalize how browsers and software process invalid characters.
 
-* [Sutton SignWriting One (configuration profile)](https://cdn.rawgit.com/Slevinski/signwriting_2010_fonts/master/fonts/SuttonSignWritingOne.mobileconfig)  
+* [Sutton SignWriting One (configuration profile)](https://github.com/Slevinski/signwriting_2010_fonts/blob/master/fonts/SuttonSignWritingOne.mobileconfig)  
 
 #### Android
 
@@ -93,25 +97,19 @@ When the TrueType fonts are installed on a system, the CSS Font-Face declaration
       font-family: "SuttonSignWritingLine";
       src: 
         local('SuttonSignWritingLine'),
-        url('https://cdn.rawgit.com/Slevinski/signwriting_2010_fonts/master/fonts/SuttonSignWritingLine.ttf') format('truetype');
+        url('https://unpkg.com/@sutton-signwriting/font-ttf@1.0.0/font/SuttonSignWritingLine.ttf') format('truetype');
     }
     @font-face {
       font-family: "SuttonSignWritingFill";
       src: 
         local('SuttonSignWritingFill'),
-        url('https://cdn.rawgit.com/Slevinski/signwriting_2010_fonts/master/fonts/SuttonSignWritingFill.ttf') format('truetype');
+        url('https://unpkg.com/@sutton-signwriting/font-ttf@1.0.0/font/SuttonSignWritingFill.ttf') format('truetype');
     }
     @font-face {
       font-family: "SuttonSignWritingOneD";
       src: 
         local('SuttonSignWritingOneD'),
-        url('https://cdn.rawgit.com/Slevinski/signwriting_2010_fonts/master/fonts/SuttonSignWritingOneD.ttf') format('truetype');
-    }
-    @font-face {
-      font-family: "SuttonSignWritingNull";
-      src: 
-        local('SuttonSignWritingNull'),
-        url('https://cdn.rawgit.com/Slevinski/signwriting_2010_fonts/master/fonts/SuttonSignWritingNull.ttf') format('truetype');
+        url('https://unpkg.com/@sutton-signwriting/font-ttf@1.0.0/font/SuttonSignWritingOneD.ttf') format('truetype');
     }
 
 - - - 
@@ -119,12 +117,12 @@ When the TrueType fonts are installed on a system, the CSS Font-Face declaration
 ### Source SVG
 Original symbol design by Valerie Sutton.  
 Symbol image refinement in SVG by Adam Frost.  
-Encoding and transformation by Stephen E Slevinski Jr.  
+Encoding and transformation by Steve Slevinski.  
 
 The source SVG required to build the TrueType fonts  is available in 2 data files.  These files were created with the SignWriting 2010 Tools by retracing the SVG Refinement.  These files can be unpacked with the SignWriting 2010 Tools.  Each symbol has an explicit size listed in the source/symsize.txt file.
 
-* [SVG Line](https://cdn.rawgit.com/Slevinski/signwriting_2010_fonts/cae26de2d2c85aedd2940e1dab67c2c1294e6303/source/svg_line.zip)  
-* [SVG Filling](https://cdn.rawgit.com/Slevinski/signwriting_2010_fonts/cae26de2d2c85aedd2940e1dab67c2c1294e6303/source/svg_fill.zip)  
+* [SVG Line](https://github.com/Slevinski/signwriting_2010_fonts/raw/master/source/svg_line.zip)  
+* [SVG Filling](https://github.com/Slevinski/signwriting_2010_fonts/raw/master/source/svg_fill.zip)  
 
 - - -
 
@@ -158,12 +156,12 @@ The Sutton SignWriting configuration profile (SuttonSignWriting.mobileconfig) an
 - - -
 
 ### Historical Formats
-The original font was created by Valerie Sutton as individual PNG files.  The SVG Refinement was a partnership of hand crafted SVGs by Adam Frost with automation tools  by Stephen E Slevinski Jr. 
+The original font was created by Valerie Sutton as individual PNG files.  The SVG Refinement was a partnership of hand crafted SVGs by Adam Frost with automation tools  by Steve Slevinski. 
 
 These files can be unpacked with the SignWriting 2010 Tools.
 
-* [Valerie Sutton's original PNG](https://cdn.rawgit.com/Slevinski/signwriting_2010_fonts/master/source/png_sutton.zip)
-* [SVG Refinement](https://cdn.rawgit.com/Slevinski/signwriting_2010_fonts/master/source/svg_refinement.zip)
+* [Valerie Sutton's original PNG](https://github.com/Slevinski/signwriting_2010_fonts/raw/master/source/png_sutton.zip)
+* [SVG Refinement](https://github.com/Slevinski/signwriting_2010_fonts/raw/master/source/svg_refinement.zip)
 
 - - -
 
@@ -178,6 +176,7 @@ This is a work in progress. Feedback, bug reports, and patches are welcomed.
 - - -
 
 ### Version History
+* 3.1.0 - Feb 19th, 2020: Font cdn update for unpkg
 * 3.0.2 - Jan 31th, 2017: Improved license declaration
 * 3.0.1 - Aug 27th, 2017: Restored deprecated fonts 
 * 3.0.0 - Aug 26th, 2017: SignWriting in Unicode characters and updated fonts
