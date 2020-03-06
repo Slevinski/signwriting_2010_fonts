@@ -1,11 +1,12 @@
 ## The SignWriting 2010 Fonts
 - - - 
-> Version 3.1.0  
-February 19th, 2020  
+> Version 3.1.1  
+March 6th, 2020  
 License: SIL Open Font License 1.1
 
-> AUTHOR: https://SteveSlevinski.me  
-> SUPPORT: https://www.patreon.com/signwriting
+> Author: https://SteveSlevinski.me  
+> Channel: https://www.youtube.com/channel/UCXu4AXlG0rXFtk_5SzumDow  
+> Support: https://www.patreon.com/signwriting
 
 
 SignWriting 2010 is a typeface for written sign languages which makes the entire [International SignWriting Alphabet 2010 symbol set](http://signbank.org/iswa) available in TrueType fonts.  
@@ -71,7 +72,7 @@ The Sutton SignWriting Line Font contains glyphs for the positive space of the s
 
 The Sutton SignWriting Fill Font contains glyphs for the negative space of the symbol images with characters on Unicode plane 16.
 
-- [Sutton SignWriting Symbol (configuration profile)](https://cdn.jsdelivr.net/gh/slevinski/signwriting_2010_fonts/fonts/SuttonSignWritingOne.mobileconfig)  
+- [Sutton SignWriting Symbol (configuration profile)](https://cdn.jsdelivr.net/gh/slevinski/signwriting_2010_fonts/fonts/SuttonSignWritingSymbol.mobileconfig)  
 
 ##### Sutton SignWriting One (configuration profile)
 The Sutton SignWriting One configuration profile contains two fonts for use in text input and for rendering normalization.
@@ -176,6 +177,7 @@ This is a work in progress. Feedback, bug reports, and patches are welcomed.
 - - -
 
 ### Version History
+* 3.1.1 - Mar 6th, 2020: Fixed configuration profile link
 * 3.1.0 - Feb 19th, 2020: Font cdn update for unpkg
 * 3.0.2 - Jan 31th, 2017: Improved license declaration
 * 3.0.1 - Aug 27th, 2017: Restored deprecated fonts 
